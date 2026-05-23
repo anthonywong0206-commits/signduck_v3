@@ -1,0 +1,10 @@
+{
+  "name": "QuickSign Pro Ultimate v2",
+  "short_name": "QuickSign v2",
+  "description": "快速建立、匯入、簽署及分享文件",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0f172a",
+  "icons": []
+}
