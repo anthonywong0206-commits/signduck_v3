@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "/assets/index-A5YBDc41.js",
+      "destination": "/?fixed=old-ios-shortcut",
+      "permanent": false
+    }
+  ],
+  "headers": [
+    {
+      "source": "/manifest.webmanifest",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "no-cache, no-store, must-revalidate"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        }
+      ]
+    }
+  ]
+}
